@@ -1,0 +1,81 @@
+LAST TWO LOCATORS IN SELENIUM
+    When do we use these last two selectors?
+    -> When you do not have any other option, you need to go for cssSelector or xpath.
+    -> They both have their own syntaxes.
+    -> These two locators allows you to create your own CUSTOM locator. Which allows you to locate pretty much everything you need to locate.
+7- cssSelector
+    -> it has its own syntax
+    syntaxes for commonly used cssSelectors;
+        1- tagName[attribute='value']
+        2- tagName.value --> . in css selector means class
+            --> looks for the tagnames that has given class attribute values
+        3- tagName#value --> # is css selector looks for id attribute value
+ex:
+    <div class="uh7" id="fa83" name="uk94">
+        <a href="www.tesla.com"> TESLA WEBPAGE! </a>
+    </div>
+    1-> div[class='uh7'] --> driver.findElement(By.cssSelector("div[class='uh7']"));
+    2-> div.uh7
+    3->
+        to go to child with cssSelector: you need to use > sign, and pass the child name you want to go
+        div[class='uh7'] > a
+ex:
+        <div class="container"></div>
+        - tagName[attribute='value']
+        - div[class='container'] > div > div
+TO OPEN THE SEARCH BOX IN HTML INSPECT PAGE:
+    1- MAC : CMD + F
+    2- WINDOWS : CNTRL + F
+    <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off" placeholder="" class="nav-input" dir="auto" tabindex="19">
+    - tagName[attribute='value']
+    --> input[tabindex='19']
+8- xpath:
+    When to use xpath? --> When you are not able to use other 6 locators.
+    -> xpath has its own syntax different from cssSelector
+    THERE ARE TWO TYPES OF XPATH LOCATORS
+    1- ABSOLUTE XPATH:
+        -> Absolute xpath starts with single slash -> /
+        -> It starts from the very beginning of the HTML code
+        -> Absolute xpath is not reliable, because if there is any minimal structural change in your HTML code, your locator will not work
+        -> Try avoid using it
+        <html>
+            <head></head>
+            <body>
+                <div>
+                    <div>
+                        <h3> this is my header </h3>
+                    </div>
+                </div>
+            </body>
+        </html>
+ex: if I want to locate using absolute xpath:
+    /html/body/div/div/h3
+    /html/body/div/div[3]
+    /html/body/div[1]/div[5]/div[1]/div/div[3]/ul/li[1]/a
+--> You use the [] in your xpath, when you have more than one sibling, and you are specifying which sibling you are trying to get
+    2- RELATIVE XPATH:
+    - starts with double slash //
+    - when you say // it allows you to start anywhere in the html code
+    - more reliable
+    - you can start from anywhere in the HTML code
+    - more specific
+    syntax : driver.findElement(By.xpath("xpath locator here"));
+    1- //tagName[@attribute='value']
+    2- //tagName[contains(@attribute, 'value')]
+    3- //tagName[.='text']
+    1- //tagName[@attribute='value'] --> looks for tagname attribute and value
+    1- //*[@attribute='value'] --> * means look for all of the webElements
+    2- //tagName[contains(@attribute, 'value')] --> locates all web elements with the given value
+    3- //tagName[.='text'] --> looks for exact text match in webElement
+ex: <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    tagName         --> li
+    attribute       --> class
+    attribute value --> nav-item
+    - //tagName[@attribute='value']
+    - //li[@class='nav-item']
+    TO GO from parent to child using xpath: use /
+    ex --> //li[@class='nav-item']/a
+    TO GO from child to parent using xpath : use /..
+    This will take you to the direct parent of the current web element
