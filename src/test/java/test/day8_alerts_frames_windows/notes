@@ -1,0 +1,34 @@
+many times you can see dropdown as a collection of links
+9:23
+drop down it’s a basically list of options that becomes visible after clicking on it (edited)
+9:24
+you can create it in different way
+9:24
+<select name=“cars” id=“cars”>
+  <optgroup label=“Swedish Cars”>
+    <option value=“volvo”>Volvo</option>
+    <option value=“saab”>Saab</option>
+  </optgroup>
+  <optgroup label=“German Cars”>
+    <option value=“mercedes”>Mercedes</option>
+    <option value=“audi”>Audi</option>
+  </optgroup>
+</select>
+9:24
+this is the oldest way to create dropdown
+9:25
+if it has <select> tag, you can use Select class in selenium… it basically clicks on it and based on text, value, or index picks the option. You can do it manually, Select class just makes it easy
+9:26
+but it won’t work with other drop-downs that don’t use select tag
+9:26
+for those, you would need to create some custom method
+9:27
+idea is very simple: click on dropdown, and wait for visibility of option, click on option
+9:27
+you cannot interact with invisible element, that’s why you have to make them visible first
+
+RETURN
+You declare a method’s return type in its method declaration. Within the body of the method, you use the return statement to return the value.
+Any method declared void doesn’t return a value. It does not need to contain a return statement, but it may do so. In such a case, a return statement can be used to branch out of a
+control flow block and exit the method and is simply used like this
+break used to exit the loop, return - to exit method..

@@ -132,8 +132,9 @@ public class SmartBearTest {
 
         Assert.assertTrue(successMessage.isDisplayed());
     }
+
     @Test
-            public void p3_smartbear_order_verification(){
+    public void p3_smartbear_order_verification(){
 
 //             driver.findElement(By.partialLinkText("Default.aspx"));
             WebElement susanDate=  driver.findElement(By.xpath("//td[.='Susan McLaren']/following-sibling::td[3]"));
