@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34455e8f-8c00-4a3a-8818-a2c7ddee6d7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/PropertiesReading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriversUtilPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/HomeWork/TC16_DoubleFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day10_jsexecutor_upload_actions/ActionsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test/day10_jsexecutor_upload_actions/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utilities/VyTrackUtilities.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/day9_testbase_properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/ReadingFromProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day9_testbase_properties/WindowHandlePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day9_testbase_properties/WindowHandlePractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day9_testbase_properties/day9_testbase_properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="30" column="122" selection-start-line="30" selection-start-column="122" selection-end-line="30" selection-end-column="122" />
+            <state relative-caret-position="85">
+              <caret line="41" column="93" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,19 +44,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="222">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC16_DoubleFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="94">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,41 +68,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/iFrame_Practice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="41" column="89" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="89" />
+            <state relative-caret-position="79">
+              <caret line="25" column="64" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#hover_over_test1#0;class#ActionsTest#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P04_Cybertek_checkboxes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-861">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P06_SeleniumEasyCheckboxVerification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -117,15 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P03_ApplePractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P06_SeleniumEasyCheckboxVerification.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P04_Cybertek_checkboxes.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P05_SeleniumEasy_CheckboxVerification.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day5_TestNG/TestNG_intro.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/annotation" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDown_more" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/TestNGPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/TestNGPracticeSelenium.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDownIntro.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/HomeWork.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SelectTask3.java" />
@@ -163,11 +131,20 @@
         <option value="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/ReadingFromProperties.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/DriversUtilPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/DriverNotes" />
+        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/notes" />
+        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/TC15_hoverOver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverOver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC16_DoubleFrame.java" />
       </list>
     </option>
   </component>
@@ -190,10 +167,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="y" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="606" />
+    <option name="y" value="-788" />
+    <option name="width" value="879" />
+    <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -203,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,7 +229,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="day7_javafaker_webtables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="day8_alerts_frames_windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="day9_testbase_properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
@@ -267,17 +261,44 @@
             <path>
               <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="US10_VyTrack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593726699818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593989124642" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -300,50 +321,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Uploading">
-    <configuration name="DriversUtilPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TC16_DoubleFrame.doubleClick">
+    <configuration name="TC10_124_VehicleFuelLog_Reset" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilities.*" />
+          <option name="PATTERN" value="test.US10_VyTrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="utilities" />
-      <option name="MAIN_CLASS_NAME" value="utilities.DriversUtilPractice" />
+      <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
+      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.TC10_124_VehicleFuelLog_Reset" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorPractice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC10_Truckdriver_create_cancel_VehicleFuelLog" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day10_jsexecutor_upload_actions.*" />
+          <option name="PATTERN" value="test.US10_VyTrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
+      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.TC10_Truckdriver_create_cancel_VehicleFuelLog" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC15_hoverOver.HoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumprojectb18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.day10_jsexecutor_upload_actions" />
-      <option name="MAIN_CLASS_NAME" value="test.day10_jsexecutor_upload_actions.JavaScriptExecutorPractice" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PropertiesReading.java_properties_test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumprojectb18" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.day9_testbase_properties.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.day9_testbase_properties" />
-      <option name="MAIN_CLASS_NAME" value="test.day9_testbase_properties.PropertiesReading" />
-      <option name="METHOD_NAME" value="java_properties_test" />
+      <option name="MAIN_CLASS_NAME" value="test.HomeWork.TC15_hoverOver" />
+      <option name="METHOD_NAME" value="HoverTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -351,17 +372,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingFromProperties.using_configuration_reader_utility" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC16_DoubleFrame.doubleClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day9_testbase_properties.*" />
+          <option name="PATTERN" value="test.HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day9_testbase_properties" />
-      <option name="MAIN_CLASS_NAME" value="test.day9_testbase_properties.ReadingFromProperties" />
-      <option name="METHOD_NAME" value="using_configuration_reader_utility" />
+      <option name="PACKAGE_NAME" value="test.HomeWork" />
+      <option name="MAIN_CLASS_NAME" value="test.HomeWork.TC16_DoubleFrame" />
+      <option name="METHOD_NAME" value="doubleClick" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -369,16 +390,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Uploading" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="iFrame_Practice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day10_jsexecutor_upload_actions.*" />
+          <option name="PATTERN" value="test.day8_alerts_frames_windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day10_jsexecutor_upload_actions" />
-      <option name="MAIN_CLASS_NAME" value="test.day10_jsexecutor_upload_actions.Uploading" />
+      <option name="PACKAGE_NAME" value="test.day8_alerts_frames_windows" />
+      <option name="MAIN_CLASS_NAME" value="test.day8_alerts_frames_windows.iFrame_Practice" />
       <properties />
       <listeners />
       <method v="2">
@@ -387,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Uploading" />
-        <item itemvalue="TestNG.JavaScriptExecutorPractice" />
-        <item itemvalue="TestNG.DriversUtilPractice" />
-        <item itemvalue="TestNG.ReadingFromProperties.using_configuration_reader_utility" />
-        <item itemvalue="TestNG.PropertiesReading.java_properties_test" />
+        <item itemvalue="TestNG.TC16_DoubleFrame.doubleClick" />
+        <item itemvalue="TestNG.iFrame_Practice" />
+        <item itemvalue="TestNG.TC15_hoverOver.HoverTest" />
+        <item itemvalue="TestNG.TC10_124_VehicleFuelLog_Reset" />
+        <item itemvalue="TestNG.TC10_Truckdriver_create_cancel_VehicleFuelLog" />
       </list>
     </recent_temporary>
   </component>
@@ -409,42 +430,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadingFromProperties_using_configuration_reader_utility - 2020.07.01 at 02h 22m 24s.xml">
-      <configuration name="ReadingFromProperties.using_configuration_reader_utility" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ReadingFromProperties_using_configuration_reader_utility - 2020.07.01 at 02h 23m 11s.xml">
-      <configuration name="ReadingFromProperties.using_configuration_reader_utility" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriversUtilPractice - 2020.07.01 at 02h 51m 23s.xml">
-      <configuration name="DriversUtilPractice" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriversUtilPractice - 2020.07.01 at 02h 53m 05s.xml">
-      <configuration name="DriversUtilPractice" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DriversUtilPractice - 2020.07.01 at 02h 53m 55s.xml">
-      <configuration name="DriversUtilPractice" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="JavaScriptExecutorPractice - 2020.07.02 at 10h 22m 00s.xml">
-      <configuration name="JavaScriptExecutorPractice" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Uploading - 2020.07.02 at 10h 38m 21s.xml">
-      <configuration name="Uploading" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Uploading - 2020.07.02 at 10h 47m 39s.xml">
-      <configuration name="Uploading" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Uploading - 2020.07.02 at 10h 50m 40s.xml">
-      <configuration name="Uploading" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Uploading - 2020.07.02 at 11h 16m 58s.xml">
       <configuration name="Uploading" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TC10_Truckdriver_create_cancel_VehicleFuelLog - 2020.07.03 at 19h 48m 50s.xml">
+      <configuration name="TC10_Truckdriver_create_cancel_VehicleFuelLog" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.03 at 20h 39m 29s.xml">
+      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC15_hoverOver_HoverTest - 2020.07.05 at 17h 11m 16s.xml">
+      <configuration name="TC15_hoverOver.HoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC15_hoverOver_HoverTest - 2020.07.05 at 17h 17m 39s.xml">
+      <configuration name="TC15_hoverOver.HoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC15_hoverOver_HoverTest - 2020.07.05 at 17h 25m 03s.xml">
+      <configuration name="TC15_hoverOver.HoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC15_hoverOver_HoverTest - 2020.07.05 at 17h 26m 22s.xml">
+      <configuration name="TC15_hoverOver.HoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC15_hoverOver_HoverTest - 2020.07.05 at 17h 27m 25s.xml">
+      <configuration name="TC15_hoverOver.HoverTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TC16_DoubleFrame_doubleClick - 2020.07.05 at 17h 29m 23s.xml">
+      <configuration name="TC16_DoubleFrame.doubleClick" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="iFrame_Practice - 2020.07.05 at 17h 32m 45s.xml">
+      <configuration name="iFrame_Practice" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="384" y="-908" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25071633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,12 +474,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44301996" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5805142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33048433" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23815967" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
@@ -487,103 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/annotation">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day3_cssSelectorXpath/cssXpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC1_SmartbearLinkVerification.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/WebTables">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SmartBearTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" selection-start-line="18" selection-end-line="36" />
-          <folding>
-            <element signature="method#setUp#0;class#SmartBearTest#0" />
-            <element signature="e#607#652#0" />
-            <element signature="method#p1_smartbear_login_test#0;class#SmartBearTest#0" />
-            <element signature="method#p2_smartbear_order_placing#0;class#SmartBearTest#0" />
-            <element signature="method#p3_smartbear_order_verification#0;class#SmartBearTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SelectTask3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day2_Selenium/Notes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day2_Selenium/BackAndForthNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/TestNGPracticeSelenium.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/day5_TestNG/StaleElementException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -591,30 +515,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/T5_Apple_FindElements_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" selection-start-line="9" selection-end-line="61" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC6_CybertekRegistration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/Task_4_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -639,16 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/SmartBearUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -680,16 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-756">
           <caret line="37" column="19" selection-start-line="36" selection-start-column="3" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/iFrame_Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -730,23 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/day9_testbase_properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="51" column="14" selection-start-line="50" selection-start-column="5" selection-end-line="51" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/day9_testbase_properties.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/ReadingFromProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -781,68 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriversUtilPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/WebDriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="30" column="122" selection-start-line="30" selection-start-column="122" selection-end-line="30" selection-end-column="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P06_SeleniumEasyCheckboxVerification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,20 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P05_SeleniumEasy_CheckboxVerification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P04_Cybertek_checkboxes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-861">
@@ -877,21 +673,242 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar!/io/github/bonigarcia/wdm/WebDriverManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="41" column="89" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="89" />
+        <state relative-caret-position="126">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day1_selenium/day1_selenium_intro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day1_selenium/SeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/WebDriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="20" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#hover_over_test1#0;class#ActionsTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/WebTables">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/T5_Apple_FindElements_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="9" selection-start-line="9" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        <state relative-caret-position="401">
+          <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/Task_4_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriversUtilPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriverNotes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2331">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/SmartBearUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/fakerPractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P05_SeleniumEasy_CheckboxVerification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="41" column="93" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/iFrame_Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="25" column="64" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC16_DoubleFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,111 @@
+public class Driver { // SINGLETON PATTERN instead of WEB DRIVER FACTORY
+    //1-Make constructor private
+    private Driver(){ // private helps us to encapsulate the private info only for reading not setting
+    // каждый класс имеет дефолтный контруктор, даже если мы его не видим. Если мы не сделаем его приватным,
+    // то наш класс (некоторые области из класса) станут доступными для изменений/модификаций через потенцильные обьекты ( созданные от контруктора )
+    // по этому нам необходимо сделать контруктор - приватным!
+    // теперь мы не можем создавать обьекты из этого класса и класс доступен только для чтения с помошью геттеров
+    }
+    private static WebDriver driver; // -> object
+    // WebDriver driver; - это и есть копия обьекта нашего класса
+    // больше копий/instances быть не может
+    // так как она static - она одна, и не может быть изменена,
+    // так же она private доступна только через метод .get(Driver)
+    // это метод геттер который мы будем вызывать в других классах что бы вызывать - WebDriver driver;
+    // он имеет условия/правила для вызова
+    public static WebDriver getDriver(){
+        if (driver == null){ // это условие проверяет вызван ли/и используется ли наш экземпляр/копия класса где-то
+                             // если нет - значит WebDriver driver'у не присвоено значение и по дефолту он NULL
+                             // если он NULL то "if statement" = true и с помошью "ConfigurationReader.getProperty("browser");"
+                             // ему будет присвоено значение из "configuration.properties" - смотри что там в настройках
+            String browser = ConfigurationReader.getProperty("browser");
+            switch (browser){ // ЕСЛИ он уже используется и ему назначено значение, то switch statement проверяет какое из перечисленных
+                              // и возвращает - WebDriver driver; с нужным  return type: chrome or firefox or others..
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                case "chrome-headless": //--> Headless browser: The only difference between regular chrome, firefox and chrome-headless, firefox-headless is:
+                                        // headless ones does not open visually.
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true)); // setHeadless(true)); -> one of the options
+                    break; //                         |
+                                                //  comes from selenium and helps you to do some advanced actions on the browser..
+                                                // can be used in the virtual machines
+                case "firefox-headless":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver(new FirefoxOptions().setHeadless(true));
+                    break;
+            }
+        }
+        return driver;
+    }
+    public static void closeDriver(){ // if driver value is not null, close it and assign it to null for new session
+        if(driver != null){
+            driver.quit();
+            driver=null;
+        }
+    }
+}
+//UTILITIES: REPEATED METHODS
+//    -> (полезные свойства) методы которые мы можем многократно использовать
+//    -> такие как логи лог аут - линки на сайты - методы выполняющие стабильные процедуры
+//    -> We create and add repeated actions/methods inside of this package
+//    -> good for repeated actions: write once, use repeatedly as needed
+//    -> good for maintaining your code: FURTHER EXPLAIN
+//
+//-------------------------------------------- DRIVER UTILITY ----------------------------------------------
+//Some challenges:
+//- We have too many lines to just to initialize the driver
+//- Being able to pass the same driver instance when calling methods from other classes
+//        get amazon page - Webdriver driver1.get
+//        find search bar Webdriver driver2.search
+//        send keys Webdriver driver3.sendKey
+//
+//REASONS:
+//    Idea of driver: we want to get the same driver instance whenever we want whereever we want
+//                    We achieve this with Driver utility
+//
+//SOLUTION: Creating a driver utility that guarantees a single instance of the driver and does the initial setup as well. (maximize, impilictwait etc)
+//
+//Singleton Design pattern: What happens if you create private constructor?
+//                       -> You cannot create an object of that class.
+//What singleton is?
+//                       -> We create a private constructor, and we also create a getter method to allow users to create the instance of this class in OUR WAY.
+//----------------------------------------------------------------------------------------------------------
+//Обычно что пороисходит? Каждый раз когда мы вызываем WebDriver мы буквально создаем очередную копию обьекта/instance которая нагружает память
+//* эти копии могут быть переписаны/изменены (если в настроках есть опция другого браузера)
+//
+//  - Допустим мы хотим создать один универсальный WebDriver для всех случаев (вместо сотни новых обьектов), то есть куда бы мы его не вызвали
+//    это будет одна и та же "копия" и она будет рабочей пока мы ее не онулируем и не пересоздадим ее же заного
+//  - Для этого мы испольуем "Singleton Design Pattern" подход/метод который позволит нам создать такую копию,
+//    и инкапсулирем наш драйвер сделав его private (limiting the users inputs, and garantee one stable single driver copy)
+//
+//Singleton Design Pattern - это подход по созданию класса в котором будут все настройки нашего драйвера.
+//                           предполагает блокировку конструктора и невозможность создания обьектов.
+//                           делаем конструктор приватным и используем только геттеры
+//                           то есть у нас будет только один класс и одна копия драйвера без возможности создания копий
+//
+//- Constructor ( обычно он передает свойства всего класса и мы можем создавать множество предопределенных обьектов с помошью него )
+//  НО тут конструктор будет инкапсулирован, c помошью private access modifier
+//  Мы не можем больше создавать обьекты из этого класса, мы можем только вызывать методы с помощью геттеров.
+//----------------------------------------------------------------------------------------------------------
+//    Driver utility:
+//        1- Private constructor : ensures that noone else can create an instance of the WebDriver
+//            -We will allow reach to this driver only through our getter method.
+//        2- We create a logic to ensure that the same driver instance is passed every single time:
+//            if(driver==null){
+//                //this statement will ensure that the new instance will be created only if the driver object is empty
+//                String browser = ConfigurationReader.getProperty("browser");
+//                //this line will read what browser we want to run on dynamically from configuration.properties
+//
+//                    switch (browser){
+//                        case "chrome":
+//                            WebDriverManager.chromedriver().setup();
+//                            driver = new ChromeDriver();
+//                            break;
+//            }
