@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import utilities.WebDriverFactory;
 
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 public class TC10_Truckdriver_create_cancel_VehicleFuelLog {
@@ -36,6 +37,7 @@ public class TC10_Truckdriver_create_cancel_VehicleFuelLog {
         login.click();
     }
     @Test(priority = 2)
+
     public void vehicleFuelLogs() throws InterruptedException {
         Thread.sleep(2000 );
         WebElement fleet = driver.findElement(By.xpath("(//span[@class='title title-level-1'])[1]"));
@@ -47,6 +49,15 @@ public class TC10_Truckdriver_create_cancel_VehicleFuelLog {
         WebElement vehiclesModel = driver.findElement(By.xpath("//h1[@class='oro-subtitle']"));
         // Assert.assertEquals(vehiclesModel.getText(), "Vehicle Model"); // first option
         Assert.assertTrue(vehiclesModel.isDisplayed()); // second option
+         }
+
+         @Test
+         public void verifyColumnOrder( WebDriver driver, String tableId, ArrayList<String> columnHeaderList) {
+
+             String expectedHeaders = String.join(" ", columnHeaderList);
+             WebElement visibleHeaders =driver.findElement(By.xpath("//tr[@class='grid-header-row']//th"));
+
+             Assert.assertEquals(visibleHeaders, expectedHeaders);
          }
 //    @Test(priority = 3)
 //    public void create_cancel() {

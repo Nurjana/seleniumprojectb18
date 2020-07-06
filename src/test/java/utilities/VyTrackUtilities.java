@@ -1,5 +1,10 @@
 package utilities;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.concurrent.TimeUnit;
+
 public class VyTrackUtilities {
     //--------------------------------------------------------------------------------------------------------->
 //    User Story:
@@ -14,14 +19,14 @@ public class VyTrackUtilities {
 //4.Verfiy that truck driver should be able to reset the grid by clicking on Grid setting//--------------------------------------------------------------------------------------------------------->
 
     public static void VyTrackLogInPage() {
-//        Driver.getDriver().get("https://qa2.vytrack.com/");
-//        WebElement username = Driver.getDriver().findElement(By.xpath("//input[@name='_username']"));
-//        username.sendKeys("user27");
-//        WebElement password = Driver.getDriver().findElement(By.xpath("//input[@name='_password']"));
-//        password.sendKeys("UserUser123");
-//        WebElement logInButton = Driver.getDriver().findElement(By.xpath("//button[@name='_submit']"));
-//        Driver.getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-//        logInButton.click();
+        Driver.getDriver().get("https://qa2.vytrack.com/");
+        WebElement username = Driver.getDriver().findElement(By.xpath("//input[@name='_username']"));
+        username.sendKeys("user27");
+        WebElement password = Driver.getDriver().findElement(By.xpath("//input[@name='_password']"));
+        password.sendKeys("UserUser123");
+        WebElement logInButton = Driver.getDriver().findElement(By.xpath("//button[@name='_submit']"));
+        Driver.getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        logInButton.click();
     }
 
 }
