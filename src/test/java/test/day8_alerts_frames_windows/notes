@@ -81,6 +81,7 @@ IFRAMES
     3- Switching by id or name attribute value.
     driver.switchTo.frame("idValue");
     driver.switchTo.frame("nameValue");
+    switchToDefaultContent(- going back to the initital page)
 ==============================================================
 WINDOWS/TABS
     -> Selenium can only focus on one thing at a time.

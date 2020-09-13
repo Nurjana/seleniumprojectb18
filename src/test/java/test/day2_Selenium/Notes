@@ -27,7 +27,8 @@ Built automation tool: What is built?
         -compiling
         -adding jarfiles, dependencies
 Is maven for testers?
-    - No. it is for developers. But we will take advantage of some of the functionalities provided by maven. Such as pom.xml file and the existing folder structure
+    - No. it is for developers. But we will take advantage of some of the functionalities provided by maven.
+    Such as pom.xml file and the existing folder structure
 Are we going to use maven to its full extent?
     - No. We will not be using maven's all of the functionalities.
 What is the folder structure of your current framework?

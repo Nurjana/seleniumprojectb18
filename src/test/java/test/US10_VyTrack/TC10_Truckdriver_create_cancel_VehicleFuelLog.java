@@ -25,7 +25,7 @@ public class TC10_Truckdriver_create_cancel_VehicleFuelLog {
         driver = WebDriverFactory.getDriver("Chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get("https://qa1.vytrack.com/user/login");
+        driver.get("https://qa2.vytrack.com/user/login");
     }
     @Test(priority = 1)
     public void login() {

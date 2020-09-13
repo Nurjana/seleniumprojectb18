@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigurationReader {
-    //1- we created properties object
+       //1- we created properties object
     private static Properties properties = new Properties();
 
-   // static, because I want it to run before all other methods
+    // static, because I want it to run before all other methods
     static {
         //2- get the path and store in String, or directly pass into fileInputStream obj
         String path = "configuration.properties";

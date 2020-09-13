@@ -15,6 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class P8_87_Automation extends ColorClass {
+    //someone's test, do not use. Sample
     WebDriver driver;
 
     @BeforeMethod

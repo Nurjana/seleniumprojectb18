@@ -2,24 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34455e8f-8c00-4a3a-8818-a2c7ddee6d7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/HomeWork/TCwarmup_WindowHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ColorClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/P8_87_Automation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/day5_TestNG/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/seleniumprojectb18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ZaferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/drafts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/userStory_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_page_object_model/ActionsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_page_object_model/ActionsWithPageObjMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_page_object_model/NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_page_object_model/PositiveLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day11_page_object_model/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day12_Synchronization/ForgotPasswordTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/DriverUtilsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ColorClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ColorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/P8_87_Automation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/P8_87_Automation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDownIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDownIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day2_Selenium/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day2_Selenium/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/HomeWork/TC15_hoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/HomeWork/TC15_hoverOver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day6_testingDropDown/dropDownIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day6_testingDropDown/dropDownIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day10_jsexecutor_upload_actions/ActionsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day10_jsexecutor_upload_actions/ActionsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/VyTrackUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/VyTrackUtilities.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,351 +48,33 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="42" column="97" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="97" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ColorClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/P8_87_Automation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="51" column="98" selection-start-line="51" selection-start-column="98" selection-end-line="51" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="41" column="93" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SmartBearTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDown_more">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2548" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>stale</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SmartBearUtilities.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/HomeWork.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/T5_Apple_FindElements_List.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC1_SmartbearLinkVerification.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SmartBearTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/WebTables" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/Task_4_5.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/Task6.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC7_CybertekMonthDropdown.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC8_MonthDropDown.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts/day8_alerts.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts/notes" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/WebtablePractices.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/SmartBearUtilities.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/alertPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/iFrame_Practice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/DraftTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/DropDownPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes" />
-        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/WindowHandlePractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/notes" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/day9_testbase_properties.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/base/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/WindowHandlePractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/Properties.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/ReadingFromProperties.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/DriversUtilPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/DriverNotes" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/notes" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/TC15_hoverOver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC16_DoubleFrame.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverOver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/HomeWork_task_9_10_11_WarmUp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/HomeWork/TCwarmup_WindowHandle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day5_TestNG/notes" />
-        <option value="$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDownIntro.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ColorClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/US10_VyTrack/P8_87_Automation.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="seleniumprojectb18" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="541" />
-    <option name="y" value="-784" />
-    <option name="width" value="879" />
-    <option name="height" value="672" />
-  </component>
+  <component name="ProjectId" id="1eeQ2yOhbejmml8Wr6NRm1FU1yh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day3_cssSelectorXpath" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day4_findElements_checkbox_radio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day5_TestNG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day6_testingDropDown" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day7_javafaker_webtables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_jsexecutor_upload_actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeWork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="US10_VyTrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumprojectb18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumprojectb18" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594030834735" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594531513494" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -380,49 +82,39 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nurjana\IdeaProjects\seleniumprojectb18\src\test" />
       <recent name="C:\Users\Nurjana\IdeaProjects\seleniumprojectb18\src\test\java\test\day1_selenium" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.P8_87_Automation.test">
-    <configuration name="P8_87_Automation" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JavaScriptExecutorPractice.scrollingTest">
+    <configuration name="ActionsPractice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.US10_VyTrack.*" />
+          <option name="PATTERN" value="test.day10_jsexecutor_upload_actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
-      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.P8_87_Automation" />
+      <option name="PACKAGE_NAME" value="test.day10_jsexecutor_upload_actions" />
+      <option name="MAIN_CLASS_NAME" value="test.day10_jsexecutor_upload_actions.ActionsPractice" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P8_87_Automation.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecutorPractice.scrollingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.US10_VyTrack.*" />
+          <option name="PATTERN" value="test.day10_jsexecutor_upload_actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
-      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.P8_87_Automation" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="test.day10_jsexecutor_upload_actions" />
+      <option name="MAIN_CLASS_NAME" value="test.day10_jsexecutor_upload_actions.JavaScriptExecutorPractice" />
+      <option name="METHOD_NAME" value="scrollingTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -430,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC10_124_VehicleFuelLog_Reset" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZaferTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
@@ -439,14 +131,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
-      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.TC10_124_VehicleFuelLog_Reset" />
+      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.ZaferTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC10_124_VehicleFuelLog_Reset.resetButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZaferTest.VehicleCost_addAttachement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
@@ -455,8 +148,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
-      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.TC10_124_VehicleFuelLog_Reset" />
-      <option name="METHOD_NAME" value="resetButton" />
+      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.ZaferTest" />
+      <option name="METHOD_NAME" value="VehicleCost_addAttachement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -464,16 +157,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropDownIntro" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="userStory_6.VehicleCost_addAttachement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumprojectb18" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.day6_testingDropDown.*" />
+          <option name="PATTERN" value="test.US10_VyTrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.day6_testingDropDown" />
-      <option name="MAIN_CLASS_NAME" value="test.day6_testingDropDown.dropDownIntro" />
+      <option name="PACKAGE_NAME" value="test.US10_VyTrack" />
+      <option name="MAIN_CLASS_NAME" value="test.US10_VyTrack.userStory_6" />
+      <option name="METHOD_NAME" value="VehicleCost_addAttachement" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -482,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.P8_87_Automation.test" />
-        <item itemvalue="TestNG.P8_87_Automation" />
-        <item itemvalue="TestNG.TC10_124_VehicleFuelLog_Reset" />
-        <item itemvalue="TestNG.TC10_124_VehicleFuelLog_Reset.resetButton" />
-        <item itemvalue="TestNG.dropDownIntro" />
+        <item itemvalue="TestNG.JavaScriptExecutorPractice.scrollingTest" />
+        <item itemvalue="TestNG.ActionsPractice" />
+        <item itemvalue="TestNG.ZaferTest" />
+        <item itemvalue="TestNG.ZaferTest.VehicleCost_addAttachement" />
+        <item itemvalue="TestNG.userStory_6.VehicleCost_addAttachement" />
       </list>
     </recent_temporary>
   </component>
@@ -500,72 +195,78 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591100688264</updated>
+      <workItem from="1594679448184" duration="1012000" />
+      <workItem from="1594680540879" duration="1313000" />
+      <workItem from="1594694747457" duration="2152000" />
+      <workItem from="1594772546237" duration="2474000" />
+      <workItem from="1594790745152" duration="383000" />
+      <workItem from="1594935224832" duration="4773000" />
+      <workItem from="1595093918095" duration="647000" />
+      <workItem from="1595299283183" duration="10417000" />
     </task>
+    <task id="LOCAL-00001" summary="vyTrack">
+      <created>1594030955934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594030955935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 04h 55m 41s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="ZaferTest - 2020.07.09 at 00h 11m 35s.xml">
+      <configuration name="ZaferTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 04h 56m 01s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="ZaferTest - 2020.07.09 at 00h 13m 00s.xml">
+      <configuration name="ZaferTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 04h 59m 58s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="ActionsPractice - 2020.07.11 at 22h 00m 34s.xml">
+      <configuration name="ActionsPractice" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 05h 02m 51s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="ActionsPractice - 2020.07.11 at 22h 05m 43s.xml">
+      <configuration name="ActionsPractice" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 05h 03m 23s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="ActionsPractice - 2020.07.11 at 22h 07m 56s.xml">
+      <configuration name="ActionsPractice" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 05h 05m 25s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="JavaScriptExecutorPractice_scrollingTest - 2020.07.11 at 22h 16m 02s.xml">
+      <configuration name="JavaScriptExecutorPractice.scrollingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TC10_124_VehicleFuelLog_Reset - 2020.07.06 at 05h 06m 14s.xml">
-      <configuration name="TC10_124_VehicleFuelLog_Reset" configurationId="TestNG" />
+    <history-entry file="JavaScriptExecutorPractice_scrollingTest - 2020.07.11 at 22h 19m 11s.xml">
+      <configuration name="JavaScriptExecutorPractice.scrollingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="P8_87_Automation - 2020.07.06 at 05h 16m 28s.xml">
-      <configuration name="P8_87_Automation" configurationId="TestNG" />
+    <history-entry file="JavaScriptExecutorPractice_scrollingTest - 2020.07.11 at 22h 20m 19s.xml">
+      <configuration name="JavaScriptExecutorPractice.scrollingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="P8_87_Automation_test - 2020.07.06 at 05h 18m 28s.xml">
-      <configuration name="P8_87_Automation.test" configurationId="TestNG" />
+    <history-entry file="JavaScriptExecutorPractice_scrollingTest - 2020.07.11 at 22h 21m 52s.xml">
+      <configuration name="JavaScriptExecutorPractice.scrollingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="P8_87_Automation_test - 2020.07.06 at 05h 19m 48s.xml">
-      <configuration name="P8_87_Automation.test" configurationId="TestNG" />
+    <history-entry file="JavaScriptExecutorPractice_scrollingTest - 2020.07.11 at 22h 22m 19s.xml">
+      <configuration name="JavaScriptExecutorPractice.scrollingTest" configurationId="TestNG" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="384" y="-908" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24283667" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31529093" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25071225" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32882273" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vyTrack" />
+    <option name="LAST_COMMIT_MESSAGE" value="vyTrack" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594679773892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1594679773892" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595300370471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/392.-900.1440.860@0.0.1536.824" timestamp="1595300370471" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594680488107" />
+    <state x="209" y="32" key="new project wizard" timestamp="1594953732826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824/392.-900.1440.860@0.0.1536.824" timestamp="1594953732826" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,413 +279,13 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/DriverUtilsPractice.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day9_testbase_properties/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="186" column="88" lean-forward="true" selection-start-line="186" selection-start-column="3" selection-end-line="186" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P06_SeleniumEasyCheckboxVerification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P04_Cybertek_checkboxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-861">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/4.0.0/webdrivermanager-4.0.0.jar!/io/github/bonigarcia/wdm/WebDriverManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day1_selenium/day1_selenium_intro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day1_selenium/SeleniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/WebDriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="20" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Actions.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/WebTables">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/Uploading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriversUtilPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/DriverNotes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2331">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/SmartBearUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/JavaScriptExecutorPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/Task_4_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/HomeWork_task_9_10_11_WarmUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3465#3466#0" expanded="true" />
-            <element signature="e#3494#3495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC15_hoverOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TC16_DoubleFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/TCwarmup_WindowHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day8_alerts_frames_windows/iFrame_Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="25" column="64" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="2502" column="39" lean-forward="true" selection-start-line="2502" selection-end-line="2503" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/HomeWork/T5_Apple_FindElements_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day5_TestNG/TestNG_intro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day5_TestNG/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="346" selection-start-line="346" selection-end-line="346" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day5_TestNG/StaleElementException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day3_cssSelectorXpath/ExampleForWebDriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/Apple_FindElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day3_cssSelectorXpath/BasicAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day4_findElements_checkbox_radio/P05_SeleniumEasy_CheckboxVerification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDownIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SelectTask3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/fakerPractice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day6_testingDropDown/dropDown_more">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day7_javafaker_webtables/SmartBearTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/VyTrackUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/day10_jsexecutor_upload_actions/ActionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="41" column="93" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/resources.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_Truckdriver_create_cancel_VehicleFuelLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="42" column="97" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/ColorClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/TC10_124_VehicleFuelLog_Reset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/US10_VyTrack/P8_87_Automation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="98" selection-start-line="51" selection-start-column="98" selection-end-line="51" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

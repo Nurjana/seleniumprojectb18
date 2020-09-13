@@ -18,4 +18,18 @@ public class JavaScriptExecutorPractice {
         javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", cybertekSchoolLink);
     }
 
+    @Test
+    public void scrollingTest() throws Exception{
+        Driver.getDriver().get("http://practice.cybertekschool.com/");
+        Driver.getDriver().manage().window().maximize();
+
+        WebElement link=Driver.getDriver().findElement(By.linkText("Cybertek School"));
+        JavascriptExecutor js=(JavascriptExecutor) Driver.getDriver();
+
+        js.executeScript("arguments[0].scrollIntoView(true);"+"arguments[0].click()",link);
+                        // arguments is the name of the collection element
+        Driver.getDriver().close();
+    }
+
+
 }

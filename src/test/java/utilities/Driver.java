@@ -8,7 +8,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class Driver {
-
+        //NOT REUSABLE
+        //Even if we want to use this method is coming from another class, we must pass the driver instasnce
     //1-Make constructor private
     private Driver(){
     }

@@ -7,7 +7,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utilities.Driver;
-import utilities.VyTrackUtilities;
 
 import java.util.List;
 
@@ -16,26 +15,23 @@ public class TC10_124_VehicleFuelLog_Reset {
 
         @BeforeMethod
         public static void VehicleLogPage() throws Exception {
+            Thread.sleep(5000);
 
-                VyTrackUtilities.VyTrackLogInPage();
-                Thread.sleep(3000);
-                WebElement homePage=Driver.getDriver().findElement(By.xpath("//h1[@class='oro-subtitle']"));
-                Assert.assertTrue(homePage.isDisplayed());
+        WebElement homePageName = Driver.getDriver().findElement(By.xpath("//h1[.='Quick Launchpad']"));
+        Assert.assertTrue(homePageName.isDisplayed());
 
-
-            WebElement Fleet = Driver.getDriver().findElement(By.xpath("(//span[contains(text(),'Fleet')])[1]"));
-            Actions action =new Actions(Driver.getDriver());
-            action.moveToElement(Driver.getDriver().findElement(By.linkText("Vehicles Fuel Logs"))).perform();
-
-            //Driver.getDriver().findElement(By.linkText("Vehicles Fuel Logs")).click();
-
+        Actions action = new Actions(Driver.getDriver());
+        WebElement fleetSpan = Driver.getDriver().findElement(By.xpath("//span[contains(text(),'Fleet')]"));
+        action.moveToElement(fleetSpan).perform();
+        WebElement fuelLog=Driver.getDriver().findElement(By.linkText("Vehicles Fuel Logs"));
+        fuelLog.click();
 
         }
 
-    @Test
+    @Test(priority = 1)
     public void vehicleFuelLogs_verification() throws Exception {
     // to verify I am on the right page
-    WebElement pageTitle = Driver.getDriver().findElement(By.xpath("//h1[@class='oro-subtitle']"));
+    WebElement pageTitle = Driver.getDriver().findElement(By.xpath("//h1[.='Vehicle Fuel Logs']"));
     Assert.assertTrue(pageTitle.isDisplayed());
 
     List<WebElement> allColumns =Driver.getDriver().findElements(By.xpath("//tr[@class='grid-header-row']"));
@@ -47,7 +43,7 @@ public class TC10_124_VehicleFuelLog_Reset {
     Assert.assertEquals(expColumnCount,actColumnCount);
 }
 
-@Test
+    @Test (priority = 2)
     public void resetButton()throws Exception{
     WebElement viewPerPage = Driver.getDriver().findElement(By.xpath("(//div[@class='btn-group'])[3]"));
     String expectedResult=viewPerPage.getText();

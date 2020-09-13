@@ -9,7 +9,6 @@ import utilities.Driver;
 
 public class ActionsTest {
 
-
     @Test
     public void hover_over_test1() throws InterruptedException{
         Driver.getDriver().get("https://www.amazon.com");
@@ -27,17 +26,17 @@ public class ActionsTest {
         actions.moveToElement(languageOptions).perform();
         //actions.perform();
 
-
-}
+    }
 
     @Test
-    public void tc15_hover_test() throws Exception {
+    public void tc15_hover_test() throws InterruptedException {
         Driver.getDriver().get("http://practice.cybertekschool.com/hovers");
 
-        WebElement img1=Driver.getDriver().findElement(By.xpath("//div[@class='figure'][1]"));
-        WebElement img2=Driver.getDriver().findElement(By.xpath("//div[@class='figure'][2]"));
-        WebElement img3=Driver.getDriver().findElement(By.xpath("//div[@class='figure'][3]"));
+        //We need to locate images and texts
 
+        WebElement img1 = Driver.getDriver().findElement(By.xpath("//div[@class='figure'][1]"));
+        WebElement img2 = Driver.getDriver().findElement(By.xpath("//div[@class='figure'][2]"));
+        WebElement img3 = Driver.getDriver().findElement(By.xpath("//div[@class='figure'][3]"));
 
         WebElement user1 = Driver.getDriver().findElement(By.xpath("//h5[.='name: user1']"));
         WebElement user2 = Driver.getDriver().findElement(By.xpath("//h5[.='name: user2']"));
@@ -63,5 +62,6 @@ public class ActionsTest {
 
 
     }
+
 
 }
